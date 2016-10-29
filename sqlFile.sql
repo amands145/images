@@ -12334,3 +12334,4 @@ INSERT INTO "nyccrash" ("crash_year","accident_type","collision_type","weather_c
 INSERT INTO "nyccrash" ("crash_year","accident_type","collision_type","weather_condition","light_condition","x_coordinate","y_coordinate",the_geom)  VALUES ('2007','1','4','1','1','1006986','204700',ST_SetSRID(ST_MakePoint(1006986,204700),2263));
 INSERT INTO "nyccrash" ("crash_year","accident_type","collision_type","weather_condition","light_condition","x_coordinate","y_coordinate",the_geom)  VALUES ('2007','2','9','1','4','998619','190754',ST_SetSRID(ST_MakePoint(998619,190754),2263));
 INSERT INTO "nyccrash" ("crash_year","accident_type","collision_type","weather_condition","light_condition","x_coordinate","y_coordinate",the_geom)  VALUES ('2007','1','9','1','4','1027944','250612',ST_SetSRID(ST_MakePoint(1027944,250612),2263));
+COMMIT;
